@@ -1,0 +1,36 @@
+body {
+    background-color: lightcoral;
+    text-align: center;
+    position: relative;
+}
+
+.container {
+    padding: 20px;
+}
+
+img {
+    border-radius: 100%;
+}
+
+.img-container {
+    width: 400px;
+}
+.img-container img {
+    width: 100%;
+    animation: wareeg 5s infinite ease-in-out;
+
+}
+
+
+/* @keyframes wareeg{
+    from { transform:  rotate(0deg);}
+    to { transform:  rotate(45deg);}
+} */
+
+@keyframes wareeg {
+    0% {transform: rotate(0deg);}
+    50% {transform: rotate(360deg);}
+    100% {transform: rotate(0deg);}
+}
+
+
